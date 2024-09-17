@@ -36,23 +36,8 @@
     <style type="text/css"></style>
   </head>
   <body>
-    <audio
-      id="background-music"
-      src="./file/audio/Taylor Swift - Lover (Official Music Video).mp3"
-      autoplay
-      loop
-    >
-      Tu navegador no soporta el elemento de audio.
-    </audio>
     <div id="main">
-      <div id="error">
-        Esta página utiliza HTML5. Actualmente tu navegador no puede mostrarla.
-        Por favor, cámbialo a Google (<a
-          href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI"
-          >Chrome</a
-        >) o Firefox (<a href="http://firefox.com.cn/download/">Firefox</a>), o
-        utiliza la última versión de otro navegador.
-      </div>
+
       <!-- <audio autoplay="autoplay" height="100" width="100"> -->
       <!-- <source src="renxi.mp3" type="audio/mp3" /> -->
       <!-- <embed height="100" width="100" src="renxi.mp3" /> -->
@@ -159,6 +144,13 @@
         vocación de profesora. !Por muchos más cumpleaños juntos amorsoteeee!!!!
       </p>
     </div>
+    <div class="audio-menu">
+      <h1>Menú de Audio</h1>
+      <audio id="audio-player" controls>
+          <source src="./file/audio/Taylor Swift - Lover (Official Music Video).mp3" type="audio/mpeg">
+          Tu navegador no soporta el elemento de audio.
+      </audio>
+  </div>
     <script></script>
 
     <script>
