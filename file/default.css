@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  font-family: "Lora";
+  color: #231f20;
+  overflow: auto;
+background-image: url(../file/imgs/1cj845ci51j31\ \(1\).jpg);
+}
+
+a {
+  color: #000;
+  font-size: 14px;
+}
+#main {
+  width: 100%;
+}
+#wrap {
+  position: relative;
+  margin: 0 auto;
+  width: 1100px;
+  height: 680px;
+  margin-top: 10px;
+}
+#text {
+  width: 272px;
+  height: 560px;
+  left: 188px;
+  top: 80px;
+  position: absolute;
+}
+#code {
+  display: none;
+  font-size: 16px;
+}
+#clock-box {
+  position: absolute;
+  left: 60px;
+  top: 550px;
+  font-size: 28px;
+  display: none;
+}
+#clock-box a {
+  font-size: 28px;
+  text-decoration: none;
+}
+#clock {
+  margin-left: 0px;
+  margin-top: 10px;
+  color: rgb(202, 69, 138);
+}
+#clock .digit {
+  font-size: 56px;
+  color: rgb(250, 96, 175);
+}
+#canvas {
+  margin: 0 auto;
+  width: 1100px;
+  height: 680px;
+}
+#error {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+  display: none;
+}
+.hand {
+  cursor: pointer;
+}
+.say {
+  margin-left: 0px;
+  font-size: 20px;
+  color: #310021;
+  font-weight: 600;
+}
+.space {
+  margin-right: 150px;
+}
